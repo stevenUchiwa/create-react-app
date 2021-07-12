@@ -41,22 +41,22 @@ const Topbar = ({pgIndex}) => {
                       <a href="/" className={ (pgIndex == 0)? 'navtextblack classActiveTop':'navtextblack'}>Accueil</a>
                   </li>
                   <li>
-                      <a href="/inaptitude" className={ (pgIndex == 1)? 'navtextblack classActiveTop':'navtextblack'}>Inaptitude</a>
+                      <a href="/#/inaptitude" className={ (pgIndex == 1)? 'navtextblack classActiveTop':'navtextblack'}>Inaptitude</a>
                   </li>
                   <li>
-                      <a href="/harcelement" className={ (pgIndex == 2)? 'navtextblack classActiveTop':'navtextblack'}>Harcélement</a>
+                      <a href="/#/harcelement" className={ (pgIndex == 2)? 'navtextblack classActiveTop':'navtextblack'}>Harcélement</a>
                    </li>
                    <li>
-                      <a href="/entretien"><p className={ (pgIndex == 3)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Entretien<br/>disciplinaire</p></a>
+                      <a href="/#/entretien"><p className={ (pgIndex == 3)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Entretien<br/>disciplinaire</p></a>
                    </li>
                    <li>
-                      <a href="/adhérer" className={ (pgIndex == 4)? 'navtextblack classActiveTop':'navtextblack'}>Adhérer!</a>
+                      <a href="/#/adhérer" className={ (pgIndex == 4)? 'navtextblack classActiveTop':'navtextblack'}>Adhérer!</a>
                    </li>
                    <li>
-                      <a href="/donnee" className='navtextyellow'><p className={ (pgIndex == 5)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Données<br/>personnelles</p></a>
+                      <a href="/#/donnee" className='navtextyellow'><p className={ (pgIndex == 5)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Données<br/>personnelles</p></a>
                    </li>
                    <li>
-                      <a href="/compte" className='navtextyellow'><p className={ (pgIndex == 6)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Comptes<br/>annuels</p></a>
+                      <a href="/#/compte" className='navtextyellow'><p className={ (pgIndex == 6)? 'entretein_dis navtextgreen classActiveTop':'entretein_dis navtextgreen'}>Comptes<br/>annuels</p></a>
                    </li>
                  </ul>
           </nav>
@@ -71,22 +71,22 @@ const Topbar = ({pgIndex}) => {
         <ListItemLink href="/">
           <ListItemText primary="Accueil" />
         </ListItemLink>
-        <ListItemLink button href="/inaptitude">
+        <ListItemLink button href="#/inaptitude">
           <ListItemText primary="Inaptitude" />
         </ListItemLink>
-        <ListItemLink button href="/harcelement">
+        <ListItemLink button href="#/harcelement">
           <ListItemText primary="Harcélement" />
         </ListItemLink>
-        <ListItemLink button href="/entretien">
+        <ListItemLink button href="#/entretien">
           <ListItemText primary="Entretien disciplinaire" />
         </ListItemLink>
-        <ListItemLink button href="/adhérer">
+        <ListItemLink button href="#/adhérer">
           <ListItemText primary="Adhérer!" />
         </ListItemLink>
-        <ListItemLink button href="/donnee">
+        <ListItemLink button href="#/donnee">
           <ListItemText primary="Données personnelles" />
         </ListItemLink>
-        <ListItemLink button href="/compte">
+        <ListItemLink button href="#/compte">
           <ListItemText primary="Comptes annuels" />
         </ListItemLink>
       </List>

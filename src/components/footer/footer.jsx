@@ -18,24 +18,24 @@ const Footer = () => {
                       <a href="/">Accueil</a>
                   </li>
                   <li className="navLiNotP">
-                      <a href="/inaptitude">inaptitude</a>
+                      <a href="/#/inaptitude">inaptitude</a>
                   </li>
                   <li>
-                      <a href="/harcelement">Harcélement</a>
+                      <a href="/#/harcelement">Harcélement</a>
                    </li>
                    <li>
-                      <a href="/entretien"><p>Entretien<br/>disciplinaire</p></a>
+                      <a href="/#/entretien"><p>Entretien<br/>disciplinaire</p></a>
                    </li>
                  </ul>
                <ul className='ulnavigationFooter'>
                    <li>
-                      <a href="/adhérer">Adhérer!</a>
+                      <a href="/#/adhérer">Adhérer!</a>
                    </li>
                    <li>
-                      <a href="/donnee" className='navtextyellow'><p>Données<br/>personnelles</p></a>
+                      <a href="/#/donnee" className='navtextyellow'><p>Données<br/>personnelles</p></a>
                    </li>
                    <li>
-                      <a href="/compte" className='navtextyellow'><p>Comptes<br/>annuels</p></a>
+                      <a href="/#/compte" className='navtextyellow'><p>Comptes<br/>annuels</p></a>
                    </li>
                  </ul>
         </section>
